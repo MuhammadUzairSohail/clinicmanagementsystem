@@ -16,17 +16,23 @@ class InventorySeeder extends Seeder
     {
         DB::table('inventories')->insert([
            [
-               'item_name' => 'GIC',
+               'item_name' => 'Luting Cemenet',
                'buying_date' => now(),
                'quantity' => 20,
                'expiry_date' => now()
            ],
             [
-                'item_name' => 'Braces',
+                'item_name' => 'Bracket kit',
                 'buying_date' => now(),
                 'quantity' => 10,
                 'expiry_date' => now()
-            ]
+            ],
+            [
+                'item_name' => 'Ortho Wires',
+                'buying_date' => now(),
+                'quantity' => 50,
+                'expiry_date' => now()
+            ],
         ]);
     }
 }

@@ -18,35 +18,60 @@ class UserSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => 'Uzair',
-                'email' => 'uzair@gmail.com',
+                'name' => 'Rabia',
+                'email' => 'rabia@gmail.com',
                 'role_id' => 1,
-                'password' => Hash::make('123456789')
+                'password' => Hash::make('12345678')
             ],
             [
-                'name' => 'Sagheer',
-                'email' => 'sagheer@gmail.com',
+                'name' => 'Ali',
+                'email' => 'ali@gmail.com',
+                'role_id' => 1,
+                'password' => Hash::make('12345678')
+            ],
+            [
+                'name' => 'Rimsha',
+                'email' => 'rimsha@gmail.com',
                 'role_id' => 2,
-                'password' => Hash::make('123456789')
+                'password' => Hash::make('12345678')
             ],
             [
-                'name' => 'Abdullah',
-                'email' => 'abdullah@gmail.com',
-                'role_id' => 3,
-                'password' => Hash::make('123456789')
-            ],
-            [
-                'name' => 'Inshal',
-                'email' => 'inshal@gmail.com',
-                'role_id' => 3,
-                'password' => Hash::make('123456789')
+                'name' => 'Muneeb',
+                'email' => 'muneeb@gmail.com',
+                'role_id' => 2,
+                'password' => Hash::make('12345678')
             ],
             [
                 'name' => 'Faizan',
                 'email' => 'faizan@gmail.com',
                 'role_id' => 3,
-                'password' => Hash::make('123456789')
-            ]
+                'password' => Hash::make('12345678')
+            ],
+            [
+                'name' => 'Sajid',
+                'email' => 'sajid@gmail.com',
+                'role_id' => 3,
+                'password' => Hash::make('12345678')
+            ],
+            [
+                'name' => 'Ayesha',
+                'email' => 'ayesha@gmail.com',
+                'role_id' => 3,
+                'password' => Hash::make('12345678')
+            ],
+            [
+                'name' => 'Kainat',
+                'email' => 'kainat@gmail.com',
+                'role_id' => 3,
+                'password' => Hash::make('12345678')
+            ],
+            [
+                'name' => 'Mohsin',
+                'email' => 'mohsin@gmail.com',
+                'role_id' => 3,
+                'password' => Hash::make('12345678')
+            ],
+
         ]);
     }
 }

@@ -30,7 +30,7 @@
                             <div class="grid grid-rows-3 gap-6">
                                 <div>
                                     <x-label for="care_of" :value="__('Care-Of')" />
-                                    <x-input id="care_of" class="block mt-1 w-full" type="text" name="care_of" value="test" required autofocus />
+                                    <x-input id="care_of" class="block mt-1 w-full" type="text" name="care_of" value="{{auth()->user()->userDetail->care_of}}" required autofocus />
                                 </div>
                                 <div>
                                     <x-label for="age" :value="__('Age')" />

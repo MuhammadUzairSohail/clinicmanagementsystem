@@ -16,64 +16,64 @@ class TreatmentSeeder extends Seeder
     {
         DB::table('treatments')->insert([
             [
-                'user_id' => 2,
+                'user_id' => 5,
                 'treatment_date' => now(),
                 'typeof_id' => '1',
-                'description' => 'Routine Checkup'
+                'description' => 'First Visit'
             ],
             [
-                'user_id' => 2,
+                'user_id' => 6,
                 'treatment_date' => now(),
                 'typeof_id' => '2',
-                'description' => 'Consultancy'
+                'description' => 'First Visit'
             ],
             [
-                'user_id' => 3,
+                'user_id' => 7,
                 'treatment_date' => now(),
                 'typeof_id' => '3',
-                'description' => 'Routine Checkup'
+                'description' => 'First Visit'
             ],
             [
-                'user_id' => 3,
+                'user_id' => 8,
                 'treatment_date' => now(),
                 'typeof_id' => '4',
-                'description' => 'Consultancy'
+                'description' => 'First Visit'
             ],
             [
-                'user_id' => 4,
+                'user_id' => 9,
                 'treatment_date' => now(),
                 'typeof_id' => '5',
-                'description' => 'Routine Checkup'
-            ],
-            [
-                'user_id' => 4,
-                'treatment_date' => now(),
-                'typeof_id' => '1',
-                'description' => 'Consultancy'
+                'description' => 'First Visit'
             ],
             [
                 'user_id' => 5,
                 'treatment_date' => now(),
-                'typeof_id' => '2',
-                'description' => 'Routine Checkup'
+                'typeof_id' => '1',
+                'description' => 'First Visit'
             ],
             [
-                'user_id' => 5,
+                'user_id' => 6,
+                'treatment_date' => now(),
+                'typeof_id' => '2',
+                'description' => 'First Visit'
+            ],
+            [
+                'user_id' => 7,
                 'treatment_date' => now(),
                 'typeof_id' => '3',
-                'description' => 'Consultancy'
+                'description' => 'First Visit'
             ],
             [
-                'user_id' => 2,
+                'user_id' => 8,
                 'treatment_date' => now(),
                 'typeof_id' => '4',
-                'description' => 'Routine Checkup'
+                'description' => 'First Visit'
             ],
             [
-                'user_id' => 3,
+                'user_id' => 9,
                 'treatment_date' => now(),
                 'typeof_id' => '5',
-                'description' => 'Consultancy'
+                'description' => 'First Visit'
             ]
         ]);
     }

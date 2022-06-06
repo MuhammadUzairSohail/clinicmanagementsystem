@@ -20,10 +20,10 @@ class DatabaseSeeder extends Seeder
             PermissionSeeder::class,
             UserDetailSeeder::class,
             RolesPermissionsSeeder::class,
-//            AppointmentSeeder::class,
+            AppointmentSeeder::class,
             TreatmentTypeSeeder::class,
-//            TreatmentSeeder::class,
-//            PaymentSeeder::class,
+            TreatmentSeeder::class,
+            PaymentSeeder::class,
             InventorySeeder::class,
             ExpenseSeeder::class,
         ]);

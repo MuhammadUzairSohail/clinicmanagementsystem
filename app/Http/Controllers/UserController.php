@@ -90,8 +90,8 @@ class UserController extends Controller
         }
     }
 
-    public function index(User $user){
-        return view('profile',compact('user'));
+    public function index(){
+        return view('profile');
     }
 
     public function viewAssistant(){

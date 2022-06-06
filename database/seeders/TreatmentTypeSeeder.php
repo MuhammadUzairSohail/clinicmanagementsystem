@@ -20,20 +20,24 @@ class TreatmentTypeSeeder extends Seeder
                 'amount' => '5000'
             ],
             [
-                'typeof' => 'Consultaion',
-                'amount' => '500'
-            ],
-            [
                 'typeof' => 'Filling',
                 'amount' => '3000'
             ],
             [
-                'typeof' => 'Extraction',
-                'amount' => '8000'
+                'typeof' => 'Bracing',
+                'amount' => '20000'
             ],
             [
-                'typeof' => 'Braces',
-                'amount' => '70000'
+                'typeof' => 'Root Canal',
+                'amount' => '10000'
+            ],
+            [
+                'typeof' => 'Denture',
+                'amount' => '25000'
+            ],
+            [
+                'typeof' => 'Soft Base Denture',
+                'amount' => '50000'
             ]
         ]);
     }

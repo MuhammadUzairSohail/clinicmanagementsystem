@@ -16,31 +16,7 @@ class AppointmentSeeder extends Seeder
     {
         DB::table('appointments')->insert([
             [
-                'user_id' => 2,
-                'booking_date' => now(),
-                'appointment_type' => 'Checkup',
-                'appointment_date' => now()
-            ],
-            [
-                'user_id' => 3,
-                'booking_date' => now(),
-                'appointment_type' => 'Chit-Chat',
-                'appointment_date' => now()
-            ],
-            [
-                'user_id' => 3,
-                'booking_date' => now(),
-                'appointment_type' => 'Checkup',
-                'appointment_date' => now()
-            ],
-            [
-                'user_id' => 4,
-                'booking_date' => now(),
-                'appointment_type' => 'Chit-Chat',
-                'appointment_date' => now()
-            ],
-            [
-                'user_id' => 4,
+                'user_id' => 5,
                 'booking_date' => now(),
                 'appointment_type' => 'Checkup',
                 'appointment_date' => now()
@@ -52,13 +28,37 @@ class AppointmentSeeder extends Seeder
                 'appointment_date' => now()
             ],
             [
-                'user_id' => 5,
+                'user_id' => 6,
                 'booking_date' => now(),
                 'appointment_type' => 'Checkup',
                 'appointment_date' => now()
             ],
             [
-                'user_id' => 2,
+                'user_id' => 6,
+                'booking_date' => now(),
+                'appointment_type' => 'Chit-Chat',
+                'appointment_date' => now()
+            ],
+            [
+                'user_id' => 7,
+                'booking_date' => now(),
+                'appointment_type' => 'Checkup',
+                'appointment_date' => now()
+            ],
+            [
+                'user_id' => 7,
+                'booking_date' => now(),
+                'appointment_type' => 'Chit-Chat',
+                'appointment_date' => now()
+            ],
+            [
+                'user_id' => 8,
+                'booking_date' => now(),
+                'appointment_type' => 'Checkup',
+                'appointment_date' => now()
+            ],
+            [
+                'user_id' => 9,
                 'booking_date' => now(),
                 'appointment_type' => 'Chit-Chat',
                 'appointment_date' => now()

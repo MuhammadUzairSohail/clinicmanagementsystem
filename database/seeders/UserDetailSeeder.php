@@ -17,50 +17,86 @@ class UserDetailSeeder extends Seeder
         DB::table('user_details')->insert([
             [
                 'user_id' => 1,
-                'care_of' => 'Sohail',
-                'age' => 24,
-                'gender' => 'Male',
+                'care_of' => 'Anwar',
+                'age' => 20,
+                'gender' => 'Female',
                 'address' => 'Airport',
-                'mobile_number' => '03360837433',
-                'phone_number' => '02134967901'
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
             ],
             [
-
                 'user_id' => 2,
-                'care_of' => 'Zardari',
-                'age' => 27,
+                'care_of' => 'Sheikh',
+                'age' => 22,
                 'gender' => 'Male',
-                'address' => 'Hyderabad',
-                'mobile_number' => '03211321312',
-                'phone_number' => '02123213131'
-            ], [
+                'address' => 'Gulshan',
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
+            ],
+            [
                 'user_id' => 3,
-                'care_of' => 'Manzoor',
-                'age' => 34,
+                'care_of' => 'Jamal',
+                'age' => 24,
+                'gender' => 'Female',
+                'address' => 'Saddar',
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
+            ],
+            [
+                'user_id' => 4,
+                'care_of' => 'Rana',
+                'age' => 26,
                 'gender' => 'Male',
                 'address' => 'Defence',
-                'mobile_number' => '03360837433',
-                'phone_number' => '02134967901'
-            ],
-            [
-
-                'user_id' => 4,
-                'care_of' => 'Baig Sahab',
-                'age' => 27,
-                'gender' => 'Male',
-                'address' => 'Malir',
-                'mobile_number' => '03211321312',
-                'phone_number' => '02123213131'
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
             ],
             [
                 'user_id' => 5,
-                'care_of' => 'Khoobsurat',
+                'care_of' => 'Awan',
+                'age' => 28,
+                'gender' => 'Male',
+                'address' => 'Airport',
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
+            ],
+            [
+                'user_id' => 6,
+                'care_of' => 'Shahid',
                 'age' => 27,
                 'gender' => 'Male',
-                'address' => 'Saddar',
-                'mobile_number' => '03360837433',
-                'phone_number' => '02134967901'
+                'address' => 'Malir Cantt',
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
+            ],
+            [
+                'user_id' => 7,
+                'care_of' => 'Siddique',
+                'age' => 21,
+                'gender' => 'Female',
+                'address' => 'Gulshan-e-Hadeed',
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
+            ],
+            [
+                'user_id' => 8,
+                'care_of' => 'Siraj',
+                'age' => 23,
+                'gender' => 'Female',
+                'address' => 'Port Qasim',
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
+            ],
+            [
+                'user_id' => 9,
+                'care_of' => 'Kamran',
+                'age' => 25,
+                'gender' => 'Male',
+                'address' => 'Airport',
+                'mobile_number' => '0900-78601',
+                'phone_number' => '0900-78601'
             ]
+
         ]);
     }
 }
